@@ -1,0 +1,52 @@
+{
+  "id": "heroone",
+  "type": "SharedSlice",
+  "name": "Heroone",
+  "description": "Heroone",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "bodytext": {
+          "type": "Text",
+          "config": {
+            "label": "Bodytext",
+            "placeholder": "Body"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "title",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "click_me": {
+          "type": "Link",
+          "config": {
+            "label": "Click me",
+            "placeholder": "Button",
+            "allowTargetBlank": true,
+            "select": null,
+            "allowText": true
+          }
+        },
+        "video_section": {
+          "type": "Embed",
+          "config": {
+            "label": "Video section",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
